@@ -1,11 +1,14 @@
 import React from 'react';
-import {View} from 'react-native';
+import {View, ScrollView} from 'react-native';
 import Post from './src/components/Post';
 
 const App = () => {
   return (
     <View>
-      <Post />
+      <ScrollView>
+        <Post />
+        <Post />
+      </ScrollView>
     </View>
   );
 };
