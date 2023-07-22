@@ -1,0 +1,7 @@
+/__tests__/
+/android/
+/ios/
+/vendor/
+/babel.config.js
+/node_modules
+metro.config.js

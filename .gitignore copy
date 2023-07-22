@@ -1,0 +1,37 @@
+# OSX
+.DS_Store
+*.swp
+*.swo
+
+# node.js
+static-files/
+node_modules/
+npm-debug.log
+yarn-error.log
+*.eslintcache
+.env.production
+
+# Xcode
+xcuserdata
+/ios/build
+/ios/Pods
+/ios/tmp.xcconfig
+
+# Android Studio
+.idea
+/android/.gradle
+/android/build
+/android/local.properties
+/android/app/build
+/android/app/release.keystore
+
+# fastlane
+/fastlane/Preview.html
+/fastlane/README.md
+/fastlane/report.xml
+/fastlane/tester_udids.txt
+/fastlane/screenshots
+
+# Bundle artifact
+*.jsbundle
+/coverage
